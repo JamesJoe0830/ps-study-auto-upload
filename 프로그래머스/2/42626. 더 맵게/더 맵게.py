@@ -1,6 +1,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42626
 # 42626. 더 맵게 [🥈 LEVEL2]
-# 📚 알고리즘 분류: Heap 🔥오답 필요
+# 📚 알고리즘 분류: Heap
 # ⏰ 걸린 시간 : 28분
 # 시간 복잡도 : O(nlogn)
 # 
