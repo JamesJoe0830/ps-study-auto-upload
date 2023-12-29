@@ -19,8 +19,6 @@ def solution(numbers):
     numbers.sort(key=lambda x: (x * 4)[:4], reverse=True) 
     # 이 방법은 x를 4번 반복해서 비교 정렬해준다.
     # [:4]이렇게 한 이유는 numbers의 원소는 0 이상 1000이하의 제약 조건을 갖고 있기 때문이다.
-
-
     answer = ''.join(numbers)
     if answer[0] == '0':
         answer = '0'
