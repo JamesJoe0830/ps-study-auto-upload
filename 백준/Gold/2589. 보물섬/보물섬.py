@@ -23,6 +23,7 @@ def bfs(y,x):
     global Y, X, answer
     Q = deque()
     Q.append((y,x))
+    distance[y][x] = 0
     
     while Q :
         y,x = Q.popleft()
@@ -41,7 +42,6 @@ for y in range(Y):
     for x in range(X):
         if graph[y][x] == 'L':
             distance = [[-1]*X for i in range(Y)]
-            distance[y][x] = 0
             bfs(y,x)
 
 print(answer)
