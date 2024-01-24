@@ -37,4 +37,5 @@ for find_num in find_nums:
             elif nums[mid] > find_num:
                 end = mid - 1 
         print(int(find))
+        
 # ------------------------------------------------------------------
