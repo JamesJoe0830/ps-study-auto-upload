@@ -1,5 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/76502
-# 76502. 할인 행사 [🥈 LEVEL2]
+# 76502. 괄호 회전하기 [🥈 LEVEL2]
 # 📚 알고리즘 분류: 스택(Stack) LIFO
 # ⏰ 걸린 시간 : 18분
 # 시간 복잡도 : O(n*m) n: s길이 , m: check함수에서 arr 길이
